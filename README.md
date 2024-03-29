@@ -22,7 +22,7 @@
   </a>
 </p>
 
-Playful and Colorful One-Page portfolio featuring Parallax effects and animations. Using the Gatsby Theme [`@lekoarts/gatsby-theme-cara`](https://github.com/LekoArts/gatsby-themes/tree/main/themes/gatsby-theme-cara).
+Portafolio divertido y colorido de una página con efectos y animaciones de Parallax. Usando el tema Gatsby [`@lekoarts/gatsby-theme-cara`](https://github.com/LekoArts/gatsby-themes/tree/main/themes/gatsby-theme-cara).
 
 [**Demo Website**](https://cara.lekoarts.de)
 
