@@ -58,9 +58,9 @@ cd gatsby-starter-portfolio-cara
 
 ### 3. **Open the code and start customizing!**
 
-Start the site by running `npm run develop`.
+Puede ver el sitio lanzando `npm run develop`.
 
-Your site is now running at `http://localhost:8000`!
+Su sitio está corriendo en  `http://localhost:8000`!
 
 Si desea obtener más información sobre cómo puede utilizar un iniciador de Gatsby configurado con un tema de Gatsby, puede consultar este tutorial  [shorter](https://www.gatsbyjs.com/docs/how-to/plugins-and-themes/using-a-gatsby-theme/) o [longer](https://www.gatsbyjs.com/tutorial/using-a-theme/) . Los tutoriales no se aplican exactamente a este iniciador, sin embargo, los conceptos son los mismos.
 
@@ -75,7 +75,7 @@ para ocultar/anular archivos. La configuración de la interfaz de usuario del te
 
 ### Changing content
 
-The content of this project is defined in four `.mdx` files inside the theme's `sections` folder. You can override the files `intro.mdx`, `projects.mdx`, `about.mdx` and `contact.mdx`. This starter has overridden all files for you already.
+El contenido de este proyecto se define en cuatro `.mdx` files inside the theme's `sections` folder. You can override the files `intro.mdx`, `projects.mdx`, `about.mdx` and `contact.mdx`. Esta iniciadora ya ha anulado todos los archivos.
 
 You have to use the `<ProjectCard />` component inside `projects.mdx` to display the cards. Example:
 
@@ -89,7 +89,7 @@ This project is my entry to Adobe's #ChallengeYourPerspective contest.
 
 ### Change your `static` folder
 
-The `static` folder contains the icons, social media images and `robots.txt`. Don't forget to change these files, too! You can use [Real Favicon Generator](https://realfavicongenerator.net/) to generate the image files inside `static`.
+El directorio  `static` contiene los iconos, imagenes de redes sociales y  `robots.txt`. Don't forget to change these files, too! You can use [Real Favicon Generator](https://realfavicongenerator.net/) to generate the image files inside `static`.
 
 ## 🤔 Questions or problems?
 
@@ -101,7 +101,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on Gatsby's webs
 
 ### Themes
 
-To learn more about Gatsby themes specifically, I recommend checking out the [theme docs](https://www.gatsbyjs.com/docs/themes/).
+Pueedes aprender más de los temas de Gatsby, Recomendamos chequear [theme docs](https://www.gatsbyjs.com/docs/themes/).
 
 ### General
 
