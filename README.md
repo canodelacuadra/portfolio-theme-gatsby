@@ -62,15 +62,16 @@ Start the site by running `npm run develop`.
 
 Your site is now running at `http://localhost:8000`!
 
-If you want to learn more about how you can use a Gatsby starter that is configured with a Gatsby theme, you can check out this [shorter](https://www.gatsbyjs.com/docs/how-to/plugins-and-themes/using-a-gatsby-theme/) or [longer](https://www.gatsbyjs.com/tutorial/using-a-theme/) tutorial. The tutorials don't exactly apply to this starter however the concepts are the same.
+Si desea obtener más información sobre cómo puede utilizar un iniciador de Gatsby configurado con un tema de Gatsby, puede consultar este tutorial  [shorter](https://www.gatsbyjs.com/docs/how-to/plugins-and-themes/using-a-gatsby-theme/) o [longer](https://www.gatsbyjs.com/tutorial/using-a-theme/) . Los tutoriales no se aplican exactamente a este iniciador, sin embargo, los conceptos son los mismos.
 
-## 📝 Using and modifying this starter
+## 📝 Usando y modificando este theme starter
 
-**Important Note:** Please read the guide [Shadowing in Gatsby Themes](https://www.gatsbyjs.com/docs/how-to/plugins-and-themes/shadowing/) to understand how to customize the underlying theme!
+**Nota Importante:** Por favor,lea la guía [Shadowing in Gatsby Themes](https://www.gatsbyjs.com/docs/how-to/plugins-and-themes/shadowing/) para entender cómo personalizar el tema subyacente!
 
-This starter creates a new Gatsby site that installs and configures the theme [`@lekoarts/gatsby-theme-cara`](https://github.com/LekoArts/gatsby-themes/tree/main/themes/gatsby-theme-cara).
+Este iniciador crea un nuevo sitio Gatsby que instala y configura el tema. [`@lekoarts/gatsby-theme-cara`](https://github.com/LekoArts/gatsby-themes/tree/main/themes/gatsby-theme-cara).
 
-Have a look at the theme's README and files to see what options are available and how you can shadow the various components including Theme UI. Generally speaking you will want to place your files into `src/@lekoarts/gatsby-theme-cara/` to shadow/override files. The Theme UI config can be configured by shadowing its files in `src/gatsby-plugin-theme-ui/`.
+Eche un vistazo al archivo README y a los archivos del tema para ver qué opciones están disponibles y cómo puede observar los diversos componentes, incluida la interfaz de usuario del tema. En términos generales, querrás colocar tus archivos en `src/@lekoarts/gatsby-theme-cara/` 
+para ocultar/anular archivos. La configuración de la interfaz de usuario del tema se puede configurar ocultando sus archivos en`src/gatsby-plugin-theme-ui/`.
 
 ### Changing content
 
