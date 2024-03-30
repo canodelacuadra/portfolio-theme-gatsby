@@ -42,7 +42,7 @@ Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 
 ## 🚀 Getting Started
 
-### 1. **Create a Gatsby site.**
+### 1. **Crear un sitio  Gatsby .**
 
 Use the Gatsby CLI to clone the site and install dependencies:
 
@@ -50,13 +50,13 @@ Use the Gatsby CLI to clone the site and install dependencies:
 npx gatsby new gatsby-starter-portfolio-cara https://github.com/LekoArts/gatsby-starter-portfolio-cara
 ```
 
-### 2. **Navigate to your new project.**
+### 2. **Navegar hasta el nuevo proyecto**
 
 ```sh
 cd gatsby-starter-portfolio-cara
 ```
 
-### 3. **Open the code and start customizing!**
+### 3. **Lanzar una previsualización para poder personalizarlo**
 
 Puede ver el sitio lanzando `npm run develop`.
 
@@ -67,6 +67,30 @@ Si desea obtener más información sobre cómo puede utilizar un iniciador de Ga
 ## 📝 Usando y modificando este theme starter
 
 **Nota Importante:** Por favor,lea la guía [Shadowing in Gatsby Themes](https://www.gatsbyjs.com/docs/how-to/plugins-and-themes/shadowing/) para entender cómo personalizar el tema subyacente!
+> El sombreado o "Shadowing" en themes del marco JS Gatsby es una técnica poderosa que te permite personalizar partes específicas de un tema sin necesidad de modificarlo directamente. Te permite "superponer" tus propios archivos sobre los del tema, reemplazando o modificando su comportamiento.
+
+#### ¿Qué puedes sombrear?
+
+* Componentes: Puedes reemplazar componentes del tema por tus propios componentes personalizados.
+* Estilos: Puedes modificar los estilos del tema, ya sea redefiniendo variables o creando nuevos estilos.
+* Requisitos de datos (consultas GraphQL): Puedes modificar las consultas GraphQL que utiliza el tema para obtener datos.
+¿Cómo funciona el sombreado?
+
+El sombreado se basa en una convención de nombres simple. Para sombrear un archivo del tema, debes crear un archivo con el mismo nombre en una ubicación específica dentro de tu proyecto Gatsby. La ubicación del archivo sombreado depende del tipo de archivo que deseas modificar:
+
+- Componentes: src/gatsby-theme-<nombre-del-tema>/components/<nombre-del-componente>.js
+- Estilos: src/gatsby-theme-<nombre-del-tema>/styles/<nombre-del-archivo-de-estilos>.js
+- Requisitos de datos (consultas GraphQL): src/gatsby-theme-<nombre-del-tema>/data/queries/<nombre-de-la-consulta>.js
+
+
+>> Supongamos que estás usando el tema gatsby-theme-blog y deseas modificar el componente Bio. Para hacerlo, puedes crear un archivo llamado src/gatsby-theme-blog/components/bio.js en tu proyecto Gatsby. Este archivo reemplazará el componente Bio del tema por tu propia versión personalizada.
+
+#### Beneficios del sombreado:
+
+- Personalización flexible: Te permite personalizar tu sitio web sin necesidad de modificar el código del tema.
+- Mantenimiento sencillo: Tus cambios se mantienen separados del código del tema, lo que facilita la actualización del tema sin perder tus personalizaciones.
+- Escalabilidad: Puedes sombrear tantos archivos como necesites para personalizar tu sitio web.
+
 
 Este iniciador crea un nuevo sitio Gatsby que instala y configura el tema. [`@lekoarts/gatsby-theme-cara`](https://github.com/LekoArts/gatsby-themes/tree/main/themes/gatsby-theme-cara).
 
@@ -75,9 +99,9 @@ para ocultar/anular archivos. La configuración de la interfaz de usuario del te
 
 ### Changing content
 
-El contenido de este proyecto se define en cuatro `.mdx` files inside the theme's `sections` folder. You can override the files `intro.mdx`, `projects.mdx`, `about.mdx` and `contact.mdx`. Esta iniciadora ya ha anulado todos los archivos.
+El contenido de este proyecto se define en cuatro archivo `.mdx` dentro del directorio   ` sections` del theme's . You can override the files `intro.mdx`, `projects.mdx`, `about.mdx` and `contact.mdx`. Este starter ya ha creado sobreescrito todos los archivos de origen y podemos sobreescribirlos.
 
-You have to use the `<ProjectCard />` component inside `projects.mdx` to display the cards. Example:
+Puede usar los componentes  `<ProjectCard />` dentro de  `projects.mdx` para mostrar las cards. Example:
 
 ```md
 ## Projects
@@ -87,11 +111,11 @@ This project is my entry to Adobe's #ChallengeYourPerspective contest.
 </ProjectCard>
 ```
 
-### Change your `static` folder
+### Cambiar los archivos de tu directorio  `static` 
 
-El directorio  `static` contiene los iconos, imagenes de redes sociales y  `robots.txt`. Don't forget to change these files, too! You can use [Real Favicon Generator](https://realfavicongenerator.net/) to generate the image files inside `static`.
+El directorio  `static` contiene los iconos, imagenes de redes sociales y  `robots.txt`. ¡No olvides cambiar estos archivos también! Puedes usar [Real Favicon Generator](https://realfavicongenerator.net/) para generar archivos de imagen e incorporarlos a  `static`.
 
-## 🤔 Questions or problems?
+## 🤔 Problemas o preguntas?
 
 If you have general questions or need help with Gatsby, please go to one of the [support platforms](https://www.gatsbyjs.com/contributing/community/#where-to-get-support) mentioned in Gatsby's documentation. If you have a specific question about this project, you can head to the [GitHub Discussions](https://github.com/LekoArts/gatsby-themes/discussions) of the repository.
 

@@ -44,9 +44,9 @@ const NotFound = (_props: PageProps) => (
         </Divider>
         <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={0} factor={1}>
           <Inner>
-            <Themed.h1>404 - Page not found</Themed.h1>
+            <Themed.h1>404 - Pagina  No encontrada</Themed.h1>
             <Themed.p>
-              Go back to <Link to="/">homepage</Link>.
+              Volver a la  <Link to="/">página de inicio</Link>.
             </Themed.p>
           </Inner>
         </Content>
